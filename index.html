@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern UI Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="translate" data-english="Welcome to Our Service" data-odia="ଆମ ସେବାରେ ସ୍ୱାଗତ">Welcome to Our Service</h1>
+        <button id="translateButton" onclick="toggleLanguage()">Translate to Odia</button>
+    </header>
+
+    <main>
+        <section class="info-section">
+            <h2 class="translate" data-english="Get the Best Deals!" data-odia="ସର୍ବଶ୍ରେଷ୍ଠ ଡିଲ୍ ପାଆନ୍ତୁ!">Get the Best Deals!</h2>
+            <p class="translate" data-english="We offer amazing services tailored for you." data-odia="ଆମେ ଆପଣଙ୍କ ପାଇଁ ଅଦ୍ଭୁତ ସେବା ପ୍ରଦାନ କରୁ।">
+                We offer amazing services tailored for you.
+            </p>
+        </section>
+
+        <section class="map-section">
+            <h2 class="translate" data-english="Our Location" data-odia="ଆମର ଅବସ୍ଥିତି">Our Location</h2>
+            <div id="map"></div>
+        </section>
+
+        <section class="contact-section">
+            <h2 class="translate" data-english="Contact Us" data-odia="ଆମକୁ ଯୋଗାଯୋଗ କରନ୍ତୁ">Contact Us</h2>
+            <div class="contact-info">
+                <p class="translate" data-english="Contact Name: Your Name" data-odia="ଯୋଗାୟୋଗ ନାମ: ତମର ନାମ">Contact Name: Your Name</p>
+                <p class="translate" data-english="Email: your@email.com" data-odia="ଇମେଲ: ଆପଣଙ୍କ ଇମେଲ">Email: your@email.com</p>
+                <p class="translate" data-english="Phone Number: +91 XXXXX XXXXX" data-odia="ଫୋନ ନମ୍ବର: +91 XXXXX XXXXX">Phone Number: +91 XXXXX XXXXX</p>
+            </div>
+            <button class="call-to-action" onclick="callNumber()" data-english="Call Us Now" data-odia="ଆମକୁ କରନ୍ତୁ">Call Us Now</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
